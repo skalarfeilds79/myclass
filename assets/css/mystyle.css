@@ -1,0 +1,52 @@
+html,body {
+  height: 100%; 
+}
+body {
+    position: relative;
+    overflow-x: hidden;
+    padding-top: 8rem !important;
+}
+.body-index {
+    margin-top: 8rem;
+}
+.badge {
+    margin-left: 8px;
+    text-decoration: none;
+}
+.logo {
+    width: 70px;
+}
+.welcome {
+  font-size: 3em;
+  text-align: center;
+}
+.move {
+    display: none;
+}
+.move-text {
+    font-size: 2em;
+    font-weight: 200;
+}
+.text-footer {
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+    right: 400%;
+}
+.home-footer {
+    position: absolute;
+    bottom: 0;    
+}
+
+.jumbo  {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+    .move {
+        display: block;
+    }
+    .welcome {
+      display: none;
+    }
+}
